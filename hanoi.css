@@ -1,0 +1,49 @@
+	body {
+		-moz-user-select: none;
+		font-size:12px;
+		margin-left:25px;
+	}
+
+	input,select {
+		font-size:12px;
+	}
+
+	td.celltd {
+		font-size:14px;
+		font-family:palatino,times;
+		width:150px;
+		height:16px;
+		background-repeat:no-repeat;
+		background-position:center;
+		border:0px;
+		text-align:center;
+		color:white;
+	}
+
+	td.moves {
+		font-size:12px;
+		text-align:center;
+		color:black;
+	}
+
+	td.movesTot {
+		font-size:14px;
+		text-align:center;
+		color:black;
+		background-color:skyblue;
+	}
+
+	th {
+		font-size:12px;
+		background-color:lightgray;
+		margin-left:15px;
+	}
+
+
+	.center-div
+	{
+	     position: absolute;
+       top : 35%;
+       left : 40%;
+       text-align: center;
+	}

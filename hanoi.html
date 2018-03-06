@@ -1,0 +1,44 @@
+<HTML>
+
+<HEAD>
+    <TITLE>Magnetic Towers of Hanoi</TITLE>
+    <link rel="stylesheet" type="text/css" href="hanoi.css">
+    <script src="hanoi.js"></script>
+</HEAD>
+
+
+<body onselectstart='return false;' ondragstart='return false;' BGCOLOR="#ffffff" onLoad="newGame()">
+    <br>
+
+    <div class="center-div">
+
+            <div id="brdDiv"></div>
+            <br>
+            <div id="numMovesDiv"></div>
+            <form name="hanoiForm">
+                <br>
+
+                <select name="maxDisks" ONCHANGE="this.blur();newGame()">
+									<option value=2>2 Disks</option>
+									<option value=3 selected>3 Disks</option>
+									<option value=4 >4 Disks</option>
+									<option value=5 >5 Disks</option>
+									<option value=6>6 Disks</option>
+									<option value=7>7 Disks</option>
+
+								</select>
+
+                <br>
+                <input type="button" value="reset game" onClick="this.blur();setGame(RESET)">
+                <input type="button" value="undo" onClick="this.blur();unDo()">
+                <input type="button" id="solvbutt" value="solve" onClick="doSolve()">
+                <br>
+            </form>
+    </div>
+
+
+
+
+</body>
+
+</html>
